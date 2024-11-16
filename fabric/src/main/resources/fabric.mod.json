@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "jtmcraft_cct",
+  "version": "${version}",
+  "name": "jtmcraft_cct",
+  "description": "",
+  "authors": [
+    ""
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/jtmcraft_cct/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fasilsmp.mods.jtmcraft_cct.fabric.JtmcraftComputerCraftTweakedFabric"
+    ],
+    "client": [
+      "net.fasilsmp.mods.jtmcraft_cct.fabric.client.JtmcraftComputerCraftTweakedFabricClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "architectury": ">=9.2.14",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
